@@ -4,6 +4,7 @@
   :official-url "https://portugal.gov.pt"
   :name-en "Portugal"
   :wikidata "Q45"
+  :head-role "IMPIC / BASE"
   :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
   :contact-page "https://www.wikidata.org/wiki/Q597"
   :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
