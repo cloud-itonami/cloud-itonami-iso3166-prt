@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "prt.commercial-companies-code-1986"
+           :title "Commercial Companies Code (Código das Sociedades Comerciais)"
+           :jurisdiction "PRT"
+           :kind :law
+           :law-number "Decree-Law no. 262/86"
+           :url "https://files.diariodarepublica.pt/diplomastraduzidos/262_1986_CommercialCompaniesCode_EN_pub.pdf?lang=EN"
+           :url-provenance :official-dre
+           :enacted-date "1986-09-02"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "prt.data-protection-act-2019"
+           :title "Lei de execução do RGPD (Data Protection Act)"
+           :jurisdiction "PRT"
+           :kind :law
+           :law-number "Lei n.º 58/2019"
+           :url "https://files.dre.pt/1s/2019/08/15100/0000300040.pdf"
+           :url-provenance :official-dre
+           :enacted-date "2019-08-08"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "prt.labour-code-2009"
+           :title "Labour Code (Código do Trabalho)"
+           :jurisdiction "PRT"
+           :kind :law
+           :law-number "Law no. 7/2009"
+           :url "https://files.dre.pt/diplomastraduzidos/7_2009_CodigoTrabalho_EN_publ.pdf"
+           :url-provenance :official-dre
+           :enacted-date "2009-02-12"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
