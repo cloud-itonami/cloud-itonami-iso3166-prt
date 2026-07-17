@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "prt.dish.bacalhau", :name "Bacalhau", :country "PRT", :kind :dish, :summary "Dried salted cod considered the iconic ingredient of Portuguese cuisine, nicknamed \"fiel amigo\" (loyal friend).", :url "https://en.wikipedia.org/wiki/Bacalhau", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "prt.dish.pastel-de-nata", :name "Pastel de nata", :country "PRT", :kind :dish, :summary "Portuguese egg custard tart pastry, optionally dusted with cinnamon.", :url "https://en.wikipedia.org/wiki/Pastel_de_nata", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "prt.dish.caldo-verde", :name "Caldo verde", :country "PRT", :kind :dish, :summary "Popular soup in Portuguese cuisine originating from the Minho Province in northern Portugal, traditionally made with julienned Portuguese cabbage, potatoes, olive oil and seasonings.", :url "https://en.wikipedia.org/wiki/Caldo_verde", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Port_wine", :id "prt.beverage.port-wine", :kind :beverage, :name-local "Vinho do Porto", :country "PRT", :retrieved-at "2026-07-17", :summary "Portuguese fortified wine produced in the Douro Valley of northern Portugal, typically a sweet red wine often served with dessert.", :name "Port wine", :url-provenance :wikipedia-en}
+#:culture{:id "prt.craft.fado", :name "Fado", :country "PRT", :kind :craft, :summary "Portuguese music genre traced to 1820s Lisbon, characterized by mournful melodies and themes of fate and longing, designated a UNESCO Intangible Cultural Heritage in 2011.", :url "https://en.wikipedia.org/wiki/Fado", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "prt.craft.azulejo", :name "Azulejo", :country "PRT", :kind :craft, :summary "Painted tin-glazed ceramic tilework that constitutes a major aspect of Portuguese architecture, with Portugal distinctively adopting complete wall coverage reflecting Moorish aesthetic principles; the tradition is shared with Spanish architecture.", :url "https://en.wikipedia.org/wiki/Azulejo", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery", :id "prt.heritage.jeronimos-monastery", :kind :heritage, :name-local "Mosteiro dos Jerónimos", :country "PRT", :retrieved-at "2026-07-17", :summary "In 1983, the Jeronimos Monastery in Lisbon was classified as a UNESCO World Heritage Site, along with the nearby Tower of Belem.", :name "Jeronimos Monastery", :url-provenance :wikipedia-en}
+]
