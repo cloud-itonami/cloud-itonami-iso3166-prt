@@ -3,7 +3,7 @@
 **`:implemented`** for **PRT**. Flagship `eu-establishment-missing`, tax `nif-unverified`.
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 ## Culture catalog
